@@ -28,12 +28,9 @@ Compared to the CSEDU 2026 conference paper, this repository introduces the **Me
 - **Memory Retention (BWT)**: `-8.85 ± 1.72` (vs `-11.69` for standard FFT).
 - **Parameter Efficiency**: Uses 9,504 trainable parameters (56% fewer than FFT).
 
-## 📜 Citation
-If you use this code, please cite:
-```bibtex
-@article{yanes2026xcare,
-  title={Topology-Aware Continual Low-Rank Adaptation for Concept Drift Mitigation in Knowledge Tracing},
-  author={Yanes, Nacim and Loussaief, Wissal},
-  journal={Journal of Educational Data Mining},
-  year={2026}
-}
+## 📥 Large Data Files (Tensors & Train Block)
+Due to GitHub's file size limits, the large pre-processed tensors (`.pt`) and the `train_block.csv` are not hosted directly in this repository. You can download them from the following Google Drive folder:
+
+👉 **[Download Tensors and Train Block from Google Drive](https://drive.google.com/file/d/1FHgAZrWVuf0zgrzWn5Ilh5434lwXu5eU/view?usp=sharing, https://drive.google.com/file/d/1ZDLq3DxTpY9XZTLWFjcIltkH5_Czim8E/view?usp=sharing, https://drive.google.com/file/d/1_ZV7VG17pRjhiPsEt_SDo9K4Gy9Jjf0p/view?usp=sharing, https://drive.google.com/file/d/1azZFLjZi81GycjnBhV8UyA1Vl9-V8lKM/view?usp=sharing, https://drive.google.com/file/d/1cEqsTQ5oTZzvbUMgSjoeLJ9T2uIPDL88/view?usp=sharing, https://drive.google.com/file/d/1dIfS3Lvmx9CeYmgOND98tZ6-6OetynMs/view?usp=sharing, https://drive.google.com/file/d/1goyXEXMtH_qlHffIXQ5S_lg6ia3ASI9s/view?usp=sharing)**
+
+*Once downloaded, place these files inside the `data/` folder of this repository before running the notebook.*
