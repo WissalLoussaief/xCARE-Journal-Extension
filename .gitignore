@@ -18,3 +18,8 @@ Thumbs.db
 
 # Large temporary files
 *.tmp
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+.venv/
