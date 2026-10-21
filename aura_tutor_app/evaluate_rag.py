@@ -24,8 +24,8 @@ from rag_engine import generate_xai_explanation
 # This script operationalises the peer-review auditing pipeline described in the
 # manuscript to address Research Question 2 (RQ2). To ensure absolute evaluation
 # independence and prevent intra-family architecture bias, the generation engine
-# utilizes Llama-3.3 (Meta AI), while this auditing judge leverages Gemini 1.5 Pro
-# (Google). A deterministic temperature of 0.0 is strictly enforced.
+# utilizes openai/gpt-oss-120b (OpenAI), while this auditing judge leverages 
+# Gemini 1.5 Pro (Google). A deterministic temperature of 0.0 is strictly enforced.
 # ==============================================================================
 
 # ==============================================================================
